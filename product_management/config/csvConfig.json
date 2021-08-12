@@ -1,0 +1,39 @@
+{
+	"Fields": {
+		"SKUCode": {
+			"csvPos": 1,
+			"rdsColumnName": "SKUCode",
+			"datatype": "VARCHAR",
+			"hasDefaultValue": false
+		},
+		"Name": {
+			"csvPos": 2,
+			"rdsColumnName": "Name",
+			"datatype": "VARCHAR",
+			"hasDefaultValue": false
+		},
+		"Description": {
+			"csvPos": 3,
+			"rdsColumnName": "Description",
+			"datatype": "VARCHAR",
+			"hasDefaultValue": true,
+			"default": null
+		},
+
+		"Color": {
+			"csvPos": 4,
+			"rdsColumnName": "Color",
+			"datatype": "VARCHAR",
+			"hasDefaultValue": true,
+			"default": null
+		},
+		"Size": {
+			"csvPos": 5,
+			"rdsColumnName": "Size",
+			"datatype": "VARCHAR",
+			"hasDefaultValue": true,
+			"default": null
+		}
+
+	}
+}
